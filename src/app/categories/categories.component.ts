@@ -8,7 +8,7 @@ import { Category } from "../category";
 })
 export class CategoriesComponent implements OnInit {
   categories: Category[] = [
-    {title: "Sports", "image": "sports.jpg"},
+    {title: "Sports", "image": "sports.jpg", "description": "20 quotes"},
   ];
   constructor() { }
 
