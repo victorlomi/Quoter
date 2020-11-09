@@ -8,11 +8,24 @@
   padding-top: 90px;
 }
 
-.category-images {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+@media (min-width: 576px) {
+  .category-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
+
+@media (min-width: 768px) {
+  .category-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
 
 .categories-images-section {
   padding-top: 60px;
