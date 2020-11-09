@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { HeroComponent } from './hero/hero.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { AddQuoteComponent } from './add-quote/add-quote.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AddQuoteComponent } from './add-quote/add-quote.component';
     NavComponent,
     HeroComponent,
     CategoriesComponent,
-    AddQuoteComponent
+    AddQuoteComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,

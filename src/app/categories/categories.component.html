@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  <div class="row categories-section">
+  <div class="row categories-title-section">
     <div class="col-sm-2"></div>
     <div class="col-sm-2">
       <!-- TITLE OF CATEGORIES SECTION -->
@@ -12,5 +12,9 @@
       <app-add-quote></app-add-quote>
     </div>
     <div class="col-sm-2"></div>
+  </div>
+  <div class="row categories-section-images">
+    <!-- CATEGORIES -->
+    <app-category [details]="categories[0]"></app-category>
   </div>
 </div>
