@@ -12,3 +12,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.categories-images-section {
+padding-top: 60px;
+}
