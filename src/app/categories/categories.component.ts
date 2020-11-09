@@ -9,7 +9,7 @@ import { firstCategories } from "../categories";
   styleUrls: ['./categories.component.css']
 })
 export class CategoriesComponent implements OnInit {
-  categories: Category[] = firstCategories;
+  categories1: Category[] = firstCategories;
   constructor() { }
 
   ngOnInit(): void {

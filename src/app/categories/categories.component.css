@@ -6,3 +6,9 @@
 .categories-title-section {
   padding-top: 90px;
 }
+
+.category-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

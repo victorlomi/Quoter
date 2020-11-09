@@ -13,15 +13,12 @@
     </div>
     <div class="col-sm-2"></div>
   </div>
-  <div class="row categories-section-images">
+  <div class="row">
     <!-- CATEGORIES -->
     <div class="col-sm-2"></div>
-    <div class="col-sm-2">
-      <app-category [details]="categories[1]"></app-category>
+    <div class="col-sm-8 category-images">
+      <app-category *ngFor="let category of categories1; index as i" [details]="categories1[i]"></app-category>
     </div>
-    <div class="col-sm-2"></div>
-    <div class="col-sm-2"></div>
-    <div class="col-sm-2"></div>
     <div class="col-sm-2"></div>
   </div>
 </div>
