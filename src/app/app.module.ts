@@ -9,6 +9,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { AddQuoteComponent } from './add-quote/add-quote.component';
 import { CategoryComponent } from './category/category.component';
 import { AddQuoteFormComponent } from './add-quote-form/add-quote-form.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +19,13 @@ import { AddQuoteFormComponent } from './add-quote-form/add-quote-form.component
     CategoriesComponent,
     AddQuoteComponent,
     CategoryComponent,
-    AddQuoteFormComponent
+    AddQuoteFormComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: '', component: NavComponent},
+      {path: '', component: HomepageComponent},
       {path: 'add-quote', component: AddQuoteFormComponent},
     ]),
   ],
