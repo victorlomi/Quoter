@@ -20,6 +20,7 @@ h1 {
   font-weight: bold;
   padding-left: 20px;
   padding-top: 8px;
+  color: #004E66;
 }
 
 h2 {
@@ -27,4 +28,5 @@ h2 {
   font-weight: lighter;
   padding-left: 20px;
   padding-bottom: 8px;
+  color: #004E66;
 }

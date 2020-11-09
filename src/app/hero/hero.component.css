@@ -1,6 +1,10 @@
 h1 {
   padding-top: 55px;
   font-size: 75px;
-  color: #000;
+  color: #004E66;
   font-weight: bold;
+}
+
+.highlight {
+  color: #FCBE32;
 }
