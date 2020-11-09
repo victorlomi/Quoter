@@ -1,7 +1,7 @@
-import { Interface } from "readline";
+import { Quote } from "./quote"
 
 export interface Category {
   title: string;
   image: string;
-  description: string;
+  quotes: Quote[];
 }
