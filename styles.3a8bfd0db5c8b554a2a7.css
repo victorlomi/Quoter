@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400;1,500;1,700&display=swap);:root{--main:#e53a40}body{font-family:Roboto,sans-serif}
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400;1,500;1,700&display=swap);:root{--main:#e53a40;--text1:#2c2c2c;--text2:#282828}body{font-family:Roboto,sans-serif}
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
