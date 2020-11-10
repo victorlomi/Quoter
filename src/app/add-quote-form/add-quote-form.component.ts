@@ -20,18 +20,23 @@ export class AddQuoteFormComponent implements OnInit {
       text: '',
       author: '',
       username: '',
-      category: ''
+      category: '',
+      date: ''
     });
   }
 
   ngOnInit(): void {
   }
 
+
   onSubmit(userData) {
     let category = this.categoriesService.getCategories()[userData.category];
 
     console.log("Form is submitted!", userData);
     alert(`Your quote was added to the ${category.title} category`);
+
+    // save date of component
+    userData.date = new Date();
 
     this.categoriesService.addQuote(userData);
     this.addQuoteForm.reset();

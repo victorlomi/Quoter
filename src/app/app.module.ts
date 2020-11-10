@@ -13,6 +13,7 @@ import { AddQuoteFormComponent } from './add-quote-form/add-quote-form.component
 import { HomepageComponent } from './homepage/homepage.component';
 import { ShowCategoryComponent } from './show-category/show-category.component';
 import { CategoryBoxComponent } from './category-box/category-box.component';
+import { DatePipe } from './date.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CategoryBoxComponent } from './category-box/category-box.component';
     AddQuoteFormComponent,
     HomepageComponent,
     ShowCategoryComponent,
-    CategoryBoxComponent
+    CategoryBoxComponent,
+    DatePipe
   ],
   imports: [
     BrowserModule,

@@ -16,9 +16,11 @@ export class CategoriesService {
 
   addQuote(data) {
     let index: number = +data.category;
-    let quote: Quote  = {text: data.text, author: data.author.toString(), username: data.username};
+    let quote: Quote  = {text: data.text, author: data.author.toString(), username: data.username, date: data.date};
 
+    console.log(quote);
     firstCategories[index].quotes.push(quote);
+    console.log(firstCategories);
     // console.log(this.categories1)
     this.categories1 = firstCategories;
   }
