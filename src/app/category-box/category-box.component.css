@@ -1,0 +1,27 @@
+.box {
+  border-radius: 10px;
+  border: 1px solid #cecece;
+  padding: 15px;
+}
+
+.quote-box {
+  padding-left: 15px;
+  font-style: italic;
+}
+
+.submission-date {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.vote {
+  display: flex;
+}
+
+.upvote {
+  margin-right: 5px;
+}
+
+.downvote {
+  margin-left: 5px;
+}

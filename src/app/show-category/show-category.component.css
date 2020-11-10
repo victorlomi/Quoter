@@ -1,0 +1,14 @@
+.titles {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.titles h1 {
+  font-size: 50px;
+}
+
+.titles h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 15px;
+}

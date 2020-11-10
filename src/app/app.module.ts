@@ -12,6 +12,7 @@ import { CategoryComponent } from './category/category.component';
 import { AddQuoteFormComponent } from './add-quote-form/add-quote-form.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ShowCategoryComponent } from './show-category/show-category.component';
+import { CategoryBoxComponent } from './category-box/category-box.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ShowCategoryComponent } from './show-category/show-category.component';
     CategoryComponent,
     AddQuoteFormComponent,
     HomepageComponent,
-    ShowCategoryComponent
+    ShowCategoryComponent,
+    CategoryBoxComponent
   ],
   imports: [
     BrowserModule,
