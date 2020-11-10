@@ -1,5 +1,5 @@
 # Quoter
-A webapp that keeps a catalogue of quotes. With quoter, you find inspirational quotes in the categories of sports, tv shows, and science. Along with this, you can add your own quotes to contribute to the community. Users can also delete quotes they think are not necessary in the quoter catalogue.
+A web app that keeps a catalogue of quotes. With Quoter, you can find inspirational quotes in the categories of sports, tv shows, and science. Along with this, you can add your own quotes to contribute to the community. Users can also delete quotes they think are unnecessary in the Quoter catalogue.
 
 **Author: Victor Lominyo**
 
