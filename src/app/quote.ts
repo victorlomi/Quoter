@@ -3,4 +3,5 @@ export interface Quote {
   author: string;
   username: string;
   date: Object;
+  votes: number;
 }

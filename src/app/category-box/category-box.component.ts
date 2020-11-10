@@ -24,4 +24,12 @@ export class CategoryBoxComponent implements OnInit {
     this.categoriesService.deleteQuote(this.quote);
   }
 
+  upvote() {
+    this.categoriesService.upvote(this.quote);
+  }
+
+  downvote() {
+    this.categoriesService.downvote(this.quote);
+  }
+
 }
