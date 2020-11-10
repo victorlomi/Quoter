@@ -4,9 +4,9 @@
     <div class="col-sm-2"></div>
     <div class="col-sm-8">
       <div class="titles">
-        <h1>Sport Quotes</h1>
+        <h1>{{category.title}} Quotes</h1>
       </div>
-      <app-category-box [text]="text1" [author]="author1"></app-category-box>
+      <app-category-box *ngFor="let quote of category.quotes" [quote]="quote"></app-category-box>
     </div>
     <div class="col-sm-2"></div>
   </div>
