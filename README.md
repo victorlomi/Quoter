@@ -28,13 +28,13 @@ Setup Intructions and Installation
 1. Clone the repository on to your computer
 
 ```
-git clone https://github.com/victorlomi/Pizza-Panda
+git clone https://github.com/victorlomi/Quoter
 ```
 
 2. Navigate to the project directory 
 
 ```
-cd Pizza-Panda
+cd Quoter
 ```
 
 3. Run the development server to view the project locally
