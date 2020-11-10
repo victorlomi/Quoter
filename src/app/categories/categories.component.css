@@ -1,7 +1,11 @@
+.categories {
+  padding-bottom: 60px;
+}
+
 .section-title {
   font-size: 26px;
   font-weight: bold;
-  color: #004E66;
+  color: var(--text1);
 }
 
 .categories-title-section {
@@ -25,8 +29,6 @@
   }
 }
 
-
-
 .categories-images-section {
-  padding-top: 60px;
+  padding-top: 30px;
 }
