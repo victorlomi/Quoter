@@ -11,6 +11,7 @@ import { AddQuoteComponent } from './add-quote/add-quote.component';
 import { CategoryComponent } from './category/category.component';
 import { AddQuoteFormComponent } from './add-quote-form/add-quote-form.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ShowCategoryComponent } from './show-category/show-category.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     AddQuoteComponent,
     CategoryComponent,
     AddQuoteFormComponent,
-    HomepageComponent
+    HomepageComponent,
+    ShowCategoryComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +31,7 @@ import { HomepageComponent } from './homepage/homepage.component';
     RouterModule.forRoot([
       {path: '', component: HomepageComponent},
       {path: 'add-quote', component: AddQuoteFormComponent},
+      {path: 'categories/:categoryId', component: ShowCategoryComponent}
     ]),
   ],
   providers: [],

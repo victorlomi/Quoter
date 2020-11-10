@@ -17,7 +17,9 @@
     <!-- CATEGORIES -->
     <div class="col-sm-2"></div>
     <div class="col-sm-8 category-images">
-      <app-category *ngFor="let category of categories1; index as i" [details]="categories1[i]"></app-category>
+      <app-category *ngFor="let category of categories1; index as categoryId" [details]="categories1[categoryId]" [routerLink]="['/categories', categoryId]">
+
+      </app-category>
     </div>
     <div class="col-sm-2"></div>
   </div>
