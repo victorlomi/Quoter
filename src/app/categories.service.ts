@@ -3,7 +3,6 @@ import { Injectable } from '@angular/core';
 import { Category } from "./category";
 import { firstCategories } from "./categories";
 import { Quote } from './quote';
-import { Console } from 'console';
 
 @Injectable({
   providedIn: 'root'

@@ -19,4 +19,7 @@ export let firstCategories: Category[] = [
     {text: "Science is a way of thinking much more than it is a body of knowledge", author: "Carl Sagan", username: "third@eye"},
     {text: "We live in a society exquisitely dependent on science and technology, in which hardly anyone knows anything about science and technology", author: "Carl Sagan", username: "hardwork28"},
   ]},
+  {title: "Other", "image": "question.png", quotes: [
+    {text: "Who are you to judge the life I live? I am not perfect and i don't have to be! Before you start pointing fingers, make sure your hands are clean.", author: "Bob Marley", username: "iseeworld"},
+  ]},
 ];
