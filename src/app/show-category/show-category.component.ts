@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./show-category.component.css']
 })
 export class ShowCategoryComponent implements OnInit {
-
+  text1 = "hello world";
+  author1 = "me me me"
   constructor() { }
 
   ngOnInit(): void {
