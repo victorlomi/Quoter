@@ -1,13 +1,23 @@
-.titles {
+.title-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 80px;
   margin-bottom: 60px;
 }
 
-.titles h1 {
+.title-section button {
+  height: 50px;
+  background-color: var(--main);
+  border: 1px solid var(--main);
+}
+
+.title-section h1 {
   font-size: 50px;
 }
 
-.titles h2 {
+.title-section h2 {
   font-size: 24px;
   font-weight: 400;
   margin-top: 15px;
