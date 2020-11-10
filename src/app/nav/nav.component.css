@@ -12,7 +12,7 @@
 .brand-text {
   font-family: 'Pacifico', cursive;
   font-size: 45px;
-  color: #FCBE32;
+  color: var(--main);
 }
 
 .nav-text {
